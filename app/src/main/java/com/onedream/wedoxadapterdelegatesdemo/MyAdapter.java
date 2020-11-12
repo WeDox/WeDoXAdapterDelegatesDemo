@@ -18,8 +18,8 @@ public class MyAdapter extends WeDoXBaseAdapter {
     public MyAdapter(Context mContext, List dataList) {
         super(dataList);
         //
-        adapterDelegateManager.addDelegate(new AHolderDelegate(mContext));
-        adapterDelegateManager.addDelegate(new BHolderDelegate(mContext));
-        adapterDelegateManager.addDelegate(new CHolderDelegate(mContext));
+        adapterDelegateManager.addDelegate(new AHolderDelegate(mContext))
+                .addDelegate(new BHolderDelegate(mContext))
+                .addDelegate(new CHolderDelegate(mContext));
     }
 }
