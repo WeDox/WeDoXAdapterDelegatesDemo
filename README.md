@@ -1,0 +1,2 @@
+# WeDoXAdapterDelegatesDemo
+多Item类型的RecyclerView适配器
